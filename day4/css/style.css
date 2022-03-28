@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+}
+
+/* navbar all page*/
+nav {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    box-shadow: 0px 0px 1px 1px lightgray;
+}
+
+nav .nav-left {
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+nav .nav-left img{
+    width: 8%;
+}
+
+nav .nav-left li {
+    display: inline;
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+nav .nav-right {
+    display: flex;
+    justify-content: flex-end; /* horizontal */
+    align-items: center; /* vertical */
+    flex: 50%;
+    padding-right: 100px;
+}
+
+nav .nav-right a {
+    background-color: rgb(34, 11, 11);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* container all page*/
+.container {
+    padding-top: 7vh;
+    background-color: rgb(225, 233, 233);
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* container 2 khusus page blog */
+.container2{
+    padding-top: 7vh;
+    background-color: rgb(225, 233, 233);
+    height: 93vh;
+}
+
+/* section homepage*/
+.container section{
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 50px 0px;
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+/* bagian kiri section Homepage*/
+.section-left{
+   margin: 0px 100px;
+}
+.section-left .download{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+section .section-left p {
+    text-align: justify;
+}
+section .section-left {
+    flex: 70%;
+    padding-left: 40px;
+}
+
+.section-left .button-group{
+    display: flex;
+}
+
+.section-left .button-contact p a{
+    background-color: rgb(34, 11, 11); 
+    color: white; 
+    border-radius: 20px; 
+    padding: 5px 25px;
+    text-decoration:none;
+    font-size: 20px;
+}
+.section-left .button-contact P{
+    padding-right: 20px;
+}
+
+.section-left .label-download a{
+    text-decoration: none; 
+    color: black;
+    padding: 0px;
+}
+
+.btn-download{
+    padding-left: 5px;
+}
+
+/* bagian kanan section homepage*/
+.foto img{
+    margin: auto; 
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.label-foto{
+    margin: auto;
+    padding: 0px;
+    text-align: center
+}
+
+
+.label-foto p{
+    margin: 6px 0px; 
+}
+section .section-right {
+    flex: 30%;
+}
+
+.section-right .frame{
+    border: 0px;
+    margin-right: 100px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px darkgray;
+}
+
+/* sosmed homepage*/
+.social-media {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.social-media i {
+    margin-right: 8px;
+}
+
+/* all section container blog & contact html*/
+
+.all-section
+{
+    width: 400px;
+    height: 100%;
+    margin: auto;
+}
+.all-section .label-group{
+    margin-top: 15px;
+}
+.all-section .btn-submit{
+    margin-top: 15px;
+}
+.all-section h2{
+    text-align: center; 
+    padding-top: 15px; 
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+
+.all-section label{
+    font-weight: bold; 
+    font-size: 20px;
+}
+.label-group input, select, textarea{
+    width: 100%; 
+    background-color:white; 
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px 1px lightgray;
+    margin-top: 5px;
+}
+
+/* section 1 blog html */
+.all-section .group-date{
+    display: flex;
+}
+.group-date .label-group{
+    width: 50%;
+}
+.all-section textarea{
+    height: 100px;
+    resize: vertical
+}
+.btn-submit{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.btn-submit button{
+    background-color: rgb(34, 11, 11); 
+    color: white; 
+    border: none;
+    border-radius: 20px; 
+    padding: 5px 25px;
+    font-size: 20px;
+    text-decoration:none;
+    cursor: pointer; 
+}
+
+.label-group .side-group{
+    display: flex;
+    width: 100%;
+}
+
+.side-group input{
+    width: max-content;
+}
+.side-group .check{
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.cover{
+      margin-top: 10px;
+}
+.cover p{
+    cursor: pointer; 
+    background-color: white;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px 1px lightgray;
+    margin: 0px;
+}
+.cover b{
+    background-color: lightgray;
+    padding: 10px 10px;
+    border-radius: 7px 0px 0px 7px;
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px 1px lightgray;
+ 
+}
+.cover label i{
+    margin-left: 70%;
+}
+
+/* section 2 di blog page */
+.all-section2{
+    position:absolute;
+    margin: auto;
+    height: inherit;
+}
+.container2 h2{
+    padding-top: 15px;
+    text-align: center;
+}
+.detail{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px 100px;
+}
+.detail .frame-detail{
+    border: 0px;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+    margin: 30px;
+    z-index: -1;
+}
+/* section */
+.all-section2 .foto{
+    padding: 10px 10px;
+    
+}
+.all-section2 .foto img{
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.all-section2 .label-foto{
+
+    padding: 0px 10px;
+    text-align: justify
+}
+
+.all-section2 .label-foto h3{
+    
+    margin: 0px;
+}
+.all-section2 .label-foto h5{
+    margin: 0px;
+    color: gray;
+}
+.all-section2 .label-foto p{
+    text-align: justify;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.all-section2 .icon-tech{
+    margin: 10px;
+}
+.all-section2 .icon-tech i{
+    font-size: 24px;
+    margin: 0px 7px;
+}
+.all-section2 .edit-btn {
+    
+    margin: 10px;    
+    display: flex;
+    column-gap: 10px;
+}
+.all-section2 .edit-btn button{
+    text-align: center;
+    width: 50%;  
+
+    background-color: rgb(34, 11, 11); 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration:none;
+    cursor: pointer;
+}

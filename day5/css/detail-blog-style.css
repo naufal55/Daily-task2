@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+/* navbar all page*/
+nav {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    box-shadow: 0px 0px 1px 1px lightgray;
+}
+
+nav .nav-left {
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+nav .nav-left img{
+    width: 8%;
+}
+
+nav .nav-left li {
+    display: inline;
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+nav .nav-right {
+    display: flex;
+    justify-content: flex-end; /* horizontal */
+    align-items: center; /* vertical */
+    flex: 50%;
+    padding-right: 100px;
+}
+
+nav .nav-right a {
+    background-color: rgb(34, 11, 11);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.container {
+    padding-top: 7vh;
+    background-color: rgb(225, 233, 233);
+    height:auto;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+}
+.container section {
+    padding-top: 10px;
+    width: 85%;
+    margin: auto;
+}
+.sub-container{
+    display: flex;
+}
+
+.foto img{
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin: auto; 
+}
+
+.tech h2{
+    margin: 0px;
+}
+/* flex=2 untuk width 2/3 layar */
+section .section-left {
+    flex: 2; 
+}
+/* flex=1 untuk width 1/3 layar */
+section .section-right {
+    /* background-color: rgb(99, 97, 106); */
+    flex: 1;
+    padding-left: 40px;
+}
+
+section .section-right p {
+    font-size: 20px;
+}
+
+section .section-right i {
+    padding-right: 5px;
+}
+section .news{
+    padding: 20px 0px;
+    text-align: justify;
+    font-size: 18px;
+
+}

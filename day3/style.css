@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+}
+
+/* navbar */
+nav {
+    background-color: white;
+    display: flex;
+    height: 7vh;
+}
+
+nav .nav-left {
+    /* background-color: blueviolet; */
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+nav .nav-left img{
+    width: 8%;
+}
+
+nav .nav-left li {
+    display: inline;
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+nav .nav-right {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: flex-end; /* horizontal */
+    align-items: center; /* vertical */
+    flex: 50%;
+    padding-right: 100px;
+}
+
+nav .nav-right a {
+    background-color: rgb(34, 11, 11);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* container */
+.container {
+    background-color: rgb(225, 233, 233);
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section */
+.container section{
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 50px 0px;
+    display: flex;
+    width: 85%;
+}
+/* bagian kiri section */
+
+.section-left{
+   margin: 0px 100px;
+}
+.section-left .download{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+section .section-left p {
+    text-align: justify;
+}
+section .section-left {
+    flex: 70%;
+    padding-left: 40px;
+}
+
+.section-left .button-group{
+    display: flex;
+}
+
+.section-left .button-contact p a{
+    background-color: rgb(34, 11, 11); 
+    color: white; 
+    border-radius: 20px; 
+    padding: 5px 25px;
+    text-decoration:none;
+    font-size: 20px;
+}
+.section-left .button-contact P{
+    padding-right: 20px;
+}
+
+.section-left .label-download a{
+    text-decoration: none; 
+    color: black;
+    padding: 0px;
+}
+
+.btn-download{
+    padding-left: 5px;
+}
+
+/* bagaian kanan section */
+
+.foto img{
+    margin: auto; 
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.label-foto{
+    margin: auto;
+    padding: 0px;
+    text-align: center
+}
+
+.label-foto h2{
+    margin: 6px 0px; 
+}
+
+.label-foto p{
+    margin: 6px 0px; 
+}
+section .section-right {
+    flex: 30%;
+}
+
+.section-right .frame{
+    border: 0px;
+    margin-right: 100px;
+    width: 300px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px darkgray;
+}
+
+/* sosmed */
+.social-media {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.social-media i {
+    margin-right: 8px;
+}
+
+/* contact.html */
+.all-section
+{
+    width: 600px;
+    height: 93vh; 
+}
+.all-section .label-group{
+    margin-top: 15px;
+}
+.all-section h2{
+    text-align: center; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+
+.all-section label{
+    font-weight: bold; 
+    font-size: 20px;
+}
+.all-section input, select, textarea{
+    width: 100%; 
+    background-color:white; 
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px 1px lightgray;
+}
+.all-section textarea{
+    height: 100px;
+    resize: vertical
+}
+.all-section button{
+    background-color: rgb(34, 11, 11); 
+    color: white; 
+    border-radius: 20px; 
+    padding: 5px 25px;
+    text-decoration:none;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer; 
+    margin-left: 80%;
+}

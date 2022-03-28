@@ -1,0 +1,131 @@
+<html>
+<head>
+    <title>My Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/blog.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="blog">
+        <div class="nav-left">
+            <img src="assets/img/logo.png" alt="logo" width="50px">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <b><a href="#">My Project</a></b>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="nav-right">
+            <a href="contact.html">contact me</a>
+        </div>
+    </nav>
+    <div class="container2">
+        
+        <div class="all-section">
+            <h2>ADD MY PROJECT</h2>
+
+            <form onsubmit="addProject(event)">
+                <div class="label-group">
+                    <label for="input-project">Project Name</label>
+                    <input type="text" id="input-project">
+                </div>
+                <div class="group-date">
+                    <div class="label-group">
+                        <label for="input-start">Start Date</label>
+                        <input type="date" name="start-date" id="input-start">
+                    </div>
+                
+                    <div class="label-group" style="margin-left: 10px;">
+                        <label for="input-end">End Date</label>
+                        <input type="date" name="email" id="input-end">
+                    </div>
+                
+                </div>
+                <div class="label-group">
+                    <label for="input-description">Description</label>
+                    <textarea name="" id="input-description"></textarea>
+                </div>
+                <div class="label-group">
+                    <label for="input-tech">Technologies</label>
+                    <div class="side-group">
+                        <div class="check">
+                            <input type="checkbox" value="fa-brands fa-bootstrap" id="input-bootstrap">
+                            <label for="input-bootstrap">Bootstrap</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" value="fa-brands fa-js" id="input-js">
+                            <label for="input-js">Javascript</label>
+                        </div>
+                    </div>
+                    <div class="side-group">
+                        <div class="check">
+                            <input type="checkbox" value="fa-brands fa-react" id="input-react">
+                            <label for="input-react">React Js</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" value="fa-brands fa-node-js" id="input-node">
+                            <label for="input-node">Node Js</label>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="label-group">
+                    <label>Upload Image</label>
+                    <div class="cover">
+                        <label for="input-image">
+                            <p><b>Upload</b> 
+                                <i class="fa-solid fa-paperclip"></i> 
+                            </p> 
+                        </label>
+                        <input type="file" title="Choose" id="input-image" hidden>
+                    </div>
+                </div>
+                <div class="btn-submit">
+                    <button>submit</button>
+                </div>
+            </form>
+        </div>
+        <h2>MY PROJECT</h2>
+         <div class="all-section2">
+
+            
+            <div class="detail" id="card-detail">
+                <!-- card blogs -->
+                <a href="detail-blog.html" style="text-decoration: none; color:black">
+                <div class="frame-detail">
+                    <div class="foto">
+                        <img src="assets/img/blog-img.png">
+                    </div>
+                    <div class="label-foto">
+                        <h3>Dumbways Mobile apps - 2021</h3>
+                        <h5>durasi 3 bulan</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eius, numquam accusamus ipsa unde totam?...</p>
+                    </div>
+                    <div class="icon-tech">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-react"></i>
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <div class="edit-btn">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </div>
+                </a>
+                <!-- card blogs -->
+               
+            </div>
+           
+         </div>    
+        
+    </div>
+   
+    
+</body>
+</html>
